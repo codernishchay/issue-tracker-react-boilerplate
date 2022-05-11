@@ -15,8 +15,8 @@ Data attributes are like data-\* , we can put anything after dash, to uniquely i
 
 | Component / Element      | data-tag            | Must have text |
 | ------------------------ | ------------------- | -------------- |
-| Top Nav Bar              | navbar              | Issue Tracker  |
-| Create Issue - Heading   | create-issue-header | Create Issue   |
+| Top Nav Bar              | navbar              |  |
+| Create Issue - Heading   | create-issue-header |    |
 | Form Description Input   | description         |                |
 | From Assigned-To Input   | assigned_to         |                |
 | Form Severity Input      | severity            |                |
