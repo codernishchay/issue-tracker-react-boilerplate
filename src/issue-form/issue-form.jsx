@@ -3,7 +3,7 @@ import "./issue-form.css";
 
 export default function IssueForm({ }) {
   const onSubmit = () => {
-   
+     // TODO : save issue to state on submit
   };
   return (
     <div className="form-container" data-tag="form-container">
@@ -13,11 +13,9 @@ export default function IssueForm({ }) {
           required
           placeholder="Description"
         />
-        <select  data-tag="severity">
-          <option value="A">Low</option>
-          <option value="B">Medium</option>
-          <option value="C">High</option>
-        </select>
+        {/*  Add a drop down for "data-tag="severity", using <select> and <option> 
+            to select between { A : Low , B : Medium , C : High  } 
+        */}
         <textarea
           data-tag="assigned_to"
           required
